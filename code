@@ -1,0 +1,31 @@
+function setup() {
+createCanvas(400, 400);
+
+}
+
+let cards = {
+  totalcards:52,
+  Suits:["♠️","♣️","♦️", "♥️",],
+values:["1","2","3","4","5","6","7","8","9","10","J","Q","K","A"], 
+ 
+}
+
+  
+ function draw(){
+  background (220)
+   textAlign()
+  noLoop()
+  textSize(150)
+  text(random(cards.Suits),200,200),
+  text(random(cards.values),80,200)
+ 
+ 
+           
+           
+ 
+
+
+//console.log(cards.totalcards)
+//console.log(cards.Suits)
+//console.log(cards.values)
+ }
